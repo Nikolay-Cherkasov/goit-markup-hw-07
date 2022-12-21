@@ -34,10 +34,10 @@
 .projects {
   display: flex;
   flex-wrap: wrap;
-  & .link:hover .projects-text-overlay {
+  & .link:hover .projects__overlay-text {
     transform: translateY(0);
   }
-  & .link:focus .projects-text-overlay {
+  & .link:focus .projects__overlay-text {
     transform: translateY(0);
   }
 }

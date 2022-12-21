@@ -17,11 +17,12 @@
   @include font($fw: 700, $lh: 16);
   text-transform: uppercase;
 }
-.features__box {
+.features__wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
 
+  border-radius: 4px;
   height: 120px;
   margin-bottom: 30px;
   background-color: var(--bcg-team-color);

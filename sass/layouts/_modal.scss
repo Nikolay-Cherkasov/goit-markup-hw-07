@@ -89,10 +89,10 @@
 }
 .modal-form__input + svg {
   transition: fill 250ms var(--timing-function);
-  &:hover,
-  &:focus {
-    fill: var(--accent-color);
-  }
+}
+.modal-form__input:hover + svg,
+.modal-form__input:focus + svg {
+  fill: var(--accent-color);
 }
 .modal-form__input-icon {
   position: absolute;
